@@ -393,8 +393,7 @@ p, address {
 
 .tm-gallery-img {
   margin-bottom: 20px;
-  display: inline;
-  max-width: 500px;
+  max-width: 50%;
 }
 
 .tm-gallery-title {
