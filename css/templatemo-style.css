@@ -91,9 +91,9 @@ html {
 
 @media (min-width: 992px) {
   .col-lg-3 {
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
+    -ms-flex: 0 0 85%;
+    flex: 0 0 85%;
+    max-width: 85%;
   }
   
   .col-lg-4 {
@@ -318,8 +318,8 @@ p, address {
 }
 
 .tm-welcome-section {
+  max-width: 1000px;
   margin: 60px auto;
-  max-width: 655px;
 }
 
 .tm-section-title {
@@ -387,11 +387,14 @@ p, address {
 }
 
 .tm-gallery-item {
-  max-width: 280px;
+  max-width: 750px;
+  display: inline;
 }
 
 .tm-gallery-img {
   margin-bottom: 20px;
+  display: inline;
+  max-width: 500px;
 }
 
 .tm-gallery-title {
